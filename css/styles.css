@@ -75,11 +75,10 @@ a {
 .border {
     display: flex;
     align-items: center;
-    /* width: 1600px; */
     height: 80px;
     border: 1px solid var(--hero);
     border: 1px solid #ECECEC;
-    /* margin: auto; */
+
 }
 .main-nav {
     display: flex;
@@ -88,6 +87,18 @@ a {
 
 .item {
     margin-right: 50px;
+}
+/* .icon > a {
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.test {
+    display: flex;
+    justify-content: center;
 }
 
 .site-nav .item:last-child {
@@ -139,7 +150,6 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-/* identical to box height */
     letter-spacing: 0.03em;
 }
 /* Section hero */
@@ -147,15 +157,16 @@ a {
     background-color: var(--hero-size);
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to right,
+rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
+    ), url(../images/page1/header.jpg);
 }
-.hero-size {
-    /* width: 1600px; */
-    /* height: 600px;
-    left: 0px;
-    top: 80px; */
-    background: var(--hero-size);  
-    /* margin-bottom: 94px;   */
-}
+
 .hero-text {
     /* margin-top: 0px; */
     margin-bottom: 30px;
@@ -227,25 +238,23 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-
-    /* text-transform: uppercase; */
-    /* margin-top: 0; */
     margin-bottom: 10px;
 }
 /* текст профессий */
-
-/* .item-text {
-    margin-right: 30px;
+/* .text-prof {
+    padding: 0;
+    border: none;
 } */
 .text-prof p {
     color: var(--header-contact);
     line-height: 1.71;
-    
-    /* margin-top: 0; */
-    /* margin-bottom: 118px; */
-/* or 171% */
-
     letter-spacing: 0.03em;
+}
+.icon-box{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 55px;
+
 }
 /* Section imeges. Заголовки */
 .header-img {
