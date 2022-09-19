@@ -367,10 +367,11 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
 .client {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .text-text {
+display: flex;
 padding: 0;
 border: none;
 width: 170px;
@@ -385,6 +386,10 @@ margin-left: 15px;
 justify-content: center;
 align-items: center;
 }
+.text-text:hover,
+.text-text:active {
+    border-color: var(--button-hero); 
+}
 
 .client-svg:hover,
 .client-svg:active { 
@@ -395,6 +400,8 @@ align-items: center;
     fill: var(--border);
     width: 106px;
     height: 60px;
+
+    
 }
 
 /* Подвал */
@@ -411,10 +418,11 @@ align-items: center;
 }
 
 .footer {
-
+    display: flex;
     background-color: var(--hero-size);
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .footer-adress a{
@@ -432,6 +440,19 @@ align-items: center;
 }
 .footer-adr:nth-child(-n + 2){
     margin-bottom: 9px;
+}
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: auto;
+}
+.about-text {
+    color: var(--footer-adress);
+    
+}
+.footer-svg {
+
 }
 
 /* Корректировка кнопок */
