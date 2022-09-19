@@ -283,7 +283,10 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
     height: 20px;
     justify-content: 50%;
     align-items: 50%;
-    fill: currentColor;
+    fill: var(--border);
+}
+.icon-social:hover {
+    fill: var(--hero)
 }
 
 .section-prof h3{
@@ -363,36 +366,35 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
 /* Секция постоянных клиентов */
 .client {
     display: flex;
-    padding: 0;
-    margin: 0;
-    /* outline: 1px solid var(--border); */
-    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-text {
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.archor {
-    padding: 0;
+padding: 0;
+border: none;
+width: 170px;
+height: 92px;
+color: tomato;
 
+border: 1px solid var(--border);
+border-radius: 4px;
+margin-bottom: 94px;
+margin-right: 15px;
+margin-left: 15px;
+justify-content: center;
+align-items: center;
 }
-/* .client-a:hover,
-.client-a:active { 
+
+.client-svg:hover,
+.client-svg:active { 
     fill: var(--button-hero);
-} */
+}
 
 .client-svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: red;
-    width: 170px;
-    height: 92px;
-    margin-bottom: 94px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
+    fill: var(--border);
+    width: 106px;
+    height: 60px;
 }
 
 /* Подвал */
