@@ -443,17 +443,34 @@ align-items: center;
 }
 .footer-text {
     display: flex;
-    justify-content: center;
-    align-items: center;    
-    gap: auto;
-    
+  
 }
+.footer-page {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(255, 255, 255, 0.1);
+    padding: 0;
+    width: 44px;
+    height: 44px; 
+    margin-right: 10px;
+}
+.footer-page:hover,
+.footer-page:active {
+    background-color: var(--button-hero);
+}
+
 .about-text {
     color: var(--footer-adress);
-
+    margin-bottom: 20px;
 }
 .footer-svg {
-
+    display: flex;
+}
+.social {
+    margin-left: 70px;
+padding-top: 12px;
 }
 
 /* Корректировка кнопок */
