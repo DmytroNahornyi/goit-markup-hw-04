@@ -446,10 +446,11 @@ align-items: center;
     justify-content: center;
     align-items: center;    
     gap: auto;
+    
 }
 .about-text {
     color: var(--footer-adress);
-    
+
 }
 .footer-svg {
 
