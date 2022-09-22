@@ -345,9 +345,7 @@ rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)
 .img:last-child {
     margin-right: 0px;}
 
-.img img{
-    /* margin-bottom: 30px; */
-}
+
 /* заголовки секции */
 .section-img h3 {
     padding-bottom: 10px;
